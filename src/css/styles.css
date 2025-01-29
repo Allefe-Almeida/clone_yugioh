@@ -87,7 +87,6 @@ body {
 .carta .nivel-carta {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10px;
     gap: 5px;
 }
 
