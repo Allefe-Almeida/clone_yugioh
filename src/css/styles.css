@@ -1,0 +1,228 @@
+body {
+    font-family: 'Yugioh', serif;
+    background-image: url(../imagens/fundo-site.jpg);
+    background-image: url(../imagens/bga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 30px;
+    overflow-y: hidden;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 2px;
+}
+
+.titulo {
+    display: inline-block; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); 
+}
+
+.carta {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    border: 4px solid #b3a393;
+    border-radius: 6px;
+    gap: 5px;
+    transform: rotateZ(0deg);
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.carta.selecionado {
+    opacity: 1;
+    z-index: 1;
+}
+
+.lista-personagens {
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+    padding: 12px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+
+.carta .nome {
+    font-size: 13px;
+    padding: 5px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: radial-gradient(circle, #F3E2C8, #E4CFA5, #c5a271);
+    border: 2px solid #A67C52;
+    line-height: 1.4;
+}
+
+.carta .estrela {
+    width: 20px;
+    height: 20px;
+    background: url(../imagens/nivel-carta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.carta .nivel-carta {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    gap: 5px;
+}
+
+.carta .imagem-carta {
+    max-width: 260px;
+    align-self: center;
+    border: 4px solid #b3a393;
+    border-radius: 0;
+}
+
+.carta .informacoes {
+    max-width: 300px;
+    padding: 5px;
+    text-align: justify;
+    color: #000;
+    background: radial-gradient(circle, #F3E2C8, #E4CFA5, #c5a271);
+    border: 2px solid #A67C52;
+    border-radius: 4px;
+    line-height: 1.1;
+}
+
+
+.carta .informacoes .informacoes-ataque {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    padding-top: 5px;
+    font-family:fantasy;
+}
+
+.carta .informacoes .informacoes-ataque span {
+    font-size: 13px;
+}
+
+.carta .informacoes .descricao {
+    border-bottom: 1px solid #000;
+    padding: 5px;
+    font-size: 12px;
+    max-height: 95px;
+    overflow-y: scroll;
+}
+
+.fundo-1 {
+    background: url(../imagens/fundo-1.jpg);
+}
+
+.fundo-2 {
+    background: url(../imagens/fundo-2.jpg);
+}
+
+.fundo-3 {
+    background: url(../imagens/fundo-3.jpg);
+}
+
+.fundo-4 {
+    background: url(../imagens/fundo-4.jpg);
+}
+
+.fundo-5 {
+    background: url(../imagens/fundo-5.jpg);
+}
+
+.fundo-6 {
+    background: url(../imagens/fundo-6.jpg);
+}
+
+.fundo-7 {
+    background: url(../imagens/fundo-7.jpg);
+}
+
+.btn-seta {
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.btn-seta:hover {
+    background-color: #ff7f08;
+}
+
+.btn-seta.btn-voltar {
+    transform: rotate(180deg);
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #c08057;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c08057;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c08057;
+}
+
+.carta-virada {
+    display: none;
+}
+
+.carta-virada.mostrar-fundo-carta {
+    display: block;
+    width: 100%;
+    height: 110%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 6px;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../imagens/fundo-carta.jpg);
+}
+
+.carta.virar{
+    border: none;
+    transform: rotateZ(90deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}

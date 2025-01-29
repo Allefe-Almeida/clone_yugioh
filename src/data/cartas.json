@@ -1,0 +1,56 @@
+[
+  {
+    "nome": "Aldros, o Escolhido do Dragão",
+    "fundo": "fundo-3",
+    "estrelas": 8,
+    "imagem": "src/imagens/Aldros.jpg",
+    "descricao": "Aldros foi escolhido pelo dragão esmeralda para ser seu emissário no mundo dos homens. Sua aura emana uma energia poderosa que pode destruir seus inimigos.",
+    "ataque": "2800",
+    "defesa": "2400"
+  },
+  {
+    "nome": "Titanus, a Terra Viva",
+    "fundo": "fundo-4",
+    "estrelas": 8,
+    "imagem": "src/imagens/Titanus.jpg",
+    "descricao": "Titanus é uma criatura pacífica, destinada a manter o equilíbrio da vida. Ele só entra em combate como último recurso, para evitar que a ganância da humanidade destrua a mundo.",
+    "ataque": "2600",
+    "defesa": "3000"
+  },
+  {
+    "nome": "Lunaria, a Dama de Prata",
+    "fundo": "fundo-6",
+    "estrelas": 6,
+    "imagem": "src/imagens/Lnaria.jpg",
+    "descricao": "Lunaria é uma guerreira imbatível com uma armadura encantada reluzente como a lua. É uma figura imponente, cuja presença é sinônimo de esperança.",
+    "ataque": "2500",
+    "defesa": "2500"
+  },
+  {
+    "nome": "Theronix, a Sombra Radiante",
+    "fundo": "fundo-1",
+    "estrelas": 7,
+    "imagem": "src/imagens/c.jpg",
+    "descricao": "Um guerreiro forjado na dor, ele viu sua cidade ser consumida pelas chamas da guerra. Sua adaga de luz brilha com o ódio pela guerra que destruiu tudo o que ele amava.",
+    "ataque": "2700",
+    "defesa": "1900"
+  },
+  {
+    "nome": "Eryndor, o Arcano Supremo",
+    "fundo": "fundo-2",
+    "estrelas": 8,
+    "imagem": "src/imagens/Eryndor.jpg",
+    "descricao": "Um mago cujas raízes remontam a um tempo esquecido, com um vasto conhecimento acumulado ao longo de milênios, ele busca compreender as forças que regem o universo.",
+    "ataque": "3000",
+    "defesa": "2200"
+  },
+  {
+    "nome": "Vorthax, o Rasgador do Vazio",
+    "fundo": "fundo-7",
+    "estrelas": 8,
+    "imagem": "src/imagens/Vorthax.jpg",
+    "descricao": "O guardião do vazio entre as estrelas, um dragão cuja existência é marcada pela destruição de mundos. Ele é o nascimento e a morte do universo, um ser que caminha nas sombras do espaço-tempo.",
+    "ataque": "3500",
+    "defesa": "2800"
+  }
+]

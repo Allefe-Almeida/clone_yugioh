@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+  body {
+    padding: 0 15px;
+  }
+
+  .lista-personagens {
+    width: 250px;
+  }
+
+  .imagem-carta {
+    width: 100%;
+  }
+
+  .slider {
+    position: relative;
+    gap: 30px;
+  }
+
+  .carta .nome {
+    font-size: 10px;
+  }
+
+  .carta .informacoes .descricao {
+    font-size: 10px;
+  }
+
+  .btn-seta {
+    position: absolute;
+    bottom: -8%;
+  }
+
+  #btn-voltar {
+    left: 34%;
+  }
+
+  #btn-avancar {
+    right: 34%;
+  }
+
+  .carta-virada.mostrar-fundo-carta {
+    height: 103%;
+  }
+}
+
+@media (max-width: 620px) {
+  #btn-voltar {
+    left: 32%;
+  }
+
+  #btn-avancar {
+    right: 32%;
+  }
+}
+
+@media (max-width: 496px) {
+  #btn-voltar {
+    left: 26%;
+  }
+
+  #btn-avancar {
+    right: 26%;
+  }
+}
+
+@media (max-width: 375px) {
+  .cabecalho {
+    font-size: 12px;
+  }
+
+  body {
+    justify-content: start;
+    padding-top: 20px;
+    gap: 15px;
+  }
+
+  .btn-seta {
+    bottom: -4%;
+    width: 50px;
+    height: 50px;
+  }
+
+  #btn-voltar {
+    left: 20%;
+  }
+
+  #btn-avancar {
+    right: 20%;
+  }
+}
