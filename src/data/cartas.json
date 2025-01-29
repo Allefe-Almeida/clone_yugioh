@@ -2,7 +2,7 @@
   {
     "nome": "Aldros, o Escolhido do Dragão",
     "fundo": "fundo-3",
-    "estrelas": 8,
+    "estrelas": 7,
     "imagem": "src/imagens/Aldros.jpg",
     "descricao": "Aldros foi escolhido pelo dragão esmeralda para ser seu emissário no mundo dos homens. Sua aura emana uma energia poderosa que pode destruir seus inimigos.",
     "ataque": "2800",
@@ -20,7 +20,7 @@
   {
     "nome": "Lunaria, a Dama de Prata",
     "fundo": "fundo-6",
-    "estrelas": 6,
+    "estrelas": 5,
     "imagem": "src/imagens/Lunaria.jpg",
     "descricao": "Lunaria é uma guerreira imbatível com uma armadura encantada reluzente como a lua. É uma figura imponente, cuja presença é sinônimo de esperança.",
     "ataque": "2500",
@@ -29,7 +29,7 @@
   {
     "nome": "Theronix, a Sombra Radiante",
     "fundo": "fundo-1",
-    "estrelas": 7,
+    "estrelas": 6,
     "imagem": "src/imagens/c.jpg",
     "descricao": "Um guerreiro forjado na dor, ele viu sua cidade ser consumida pelas chamas da guerra. Sua adaga de luz brilha com o ódio pela guerra que destruiu tudo o que ele amava.",
     "ataque": "2700",
