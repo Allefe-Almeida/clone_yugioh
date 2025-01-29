@@ -1,6 +1,6 @@
 # Clone Yu-Gi-Oh!
 
-Este projeto é uma recriação de um jogo de cartas inspirado no famoso jogo "Yu-Gi-Oh!". O objetivo é criar uma interface onde o usuário possa visualizar cartas de personagens, navegar por elas e interagir com as informações de cada uma. O projeto utiliza JavaScript, HTML, CSS e JSON para carregar e exibir dados dinamicamente.
+Este é um projeto inspirado no famoso jogo "Yu-Gi-Oh!". O objetivo é criar uma interface onde o usuário possa visualizar cartas de personagens, navegar por elas e interagir com as informações de cada uma. O projeto utiliza JavaScript, HTML, CSS e JSON para carregar e exibir dados dinamicamente.
 
 ## Funcionalidades
 
